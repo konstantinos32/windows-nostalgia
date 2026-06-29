@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: teal;
+}
+
+.window-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.window{
+    width: 80%;
+    max-width: 35rem;
+    background-color: lightgrey;
+    border: 3px solid;
+    border-color: white black black white;
+    box-shadow: 3px 3px 5px 0px rgb(77, 77, 77);
+}
