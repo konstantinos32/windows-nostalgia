@@ -28,13 +28,20 @@ height: 100vh;
 
 .header{
     display: flex;
-    justify-content: start;
+    flex-direction: column;
+    justify-content: center;
     padding:0 3rem;
     color: white;
     background-color: blue;
+    font-weight: bold;
+    
+  height: 30px;
+  align-items: start;
+
 }
 
 .content-text {
+    align-items: center;
   display: flex;
   justify-content: space-around; /* optional: vertically align */
   gap:10px;           /* space between image and text */
@@ -59,4 +66,9 @@ height: 100vh;
     border-right-color: black;
     border-bottom-color: black;
     box-shadow: 3px 3px 5px 0px rgb(77, 77, 77);
+}
+
+.icon{
+   width: 3rem; 
+   height: 3rem;
 }
